@@ -1,0 +1,65 @@
+    {"matchFields": {
+        "StationName": "Device1",
+        },
+        "map": {        "AcquisitionBodyPart": "StudyDescription"},
+        "i18n": {
+          "Cranio": "Brain",
+          "Joelho": "Knee"
+        }
+      },
+
+
+{"matchFields": {
+        "StationName": "Fugi1",
+        "InstitututionName": "Inst1"},
+        "Sensitivity": {
+          "Operation": "Range",  
+          "Values" : {"0-400": "High Exposure", "400-800": "Normal Exposure", "800-1600": "Low Exposure"}
+        },
+      }
+,
+{"matchFields": {
+        "StationName": "Siemens1",
+        "InstitututionName": "Inst2"},
+        "Sensitivity": {
+          "Operation": "Range",  
+          "Values" : {"0-380": "Low Exposure", "380-760": "Normal Exposure", "760-1520": "High Exposure"}
+        },
+      }
+
+      ,
+
+
+{"matchFields": {
+        "StationName": "Logici7",
+        "AquisitionBodyPart": "StudyDescription"},
+        "i18n": {
+          "Cranio": "Brain",
+          "Joelho": "Knee"
+        }
+      }
+      ,
+
+
+       {"matchFields": {
+        "StationName": "Logici7",
+        "AquisitionBodyPart": "StudyDescription"},
+        "i18n": {
+          "Cranio": "Brain",
+          "Joelho": "Knee"
+        }
+      }
+
+,
+
+{ "Title": "Number of active patients by Modality", "Type": "yearly", "InstitututionName": "Inst1",
+    "Name": "Years", "Variable": "Number of active patients by Modality",
+
+"Values": 
+
+ {"Modality_01": "16382", "Modality_02": "6081", "Modality_03": "465" }
+
+}
+
+
+
