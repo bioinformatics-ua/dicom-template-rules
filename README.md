@@ -3,6 +3,16 @@ dicom-template-rules
 
 DICOM Template Rules
 
+## Structure
+
+This is a library of template rules that can be used in any java project that use the template rules. 
+It is based in JSON format and they support:
+
+* direct match 
+* range operations 
+* transformations 
+
+## Example 
 
 ```
 {"matchFields": {
@@ -14,4 +24,4 @@ DICOM Template Rules
         },
       }
       
-      ```
+```
